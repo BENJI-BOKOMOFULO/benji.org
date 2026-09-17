@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Benji Bokomofulo — Étudiant L3 Réseaux Informatiques & Télécommunications, Responsable de la Programmation des Formations au CIC. Portfolio, parcours et compétences.">
+<title>Benji Bokomofulo — Responsable Programmation des Formations, CIC</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230f766e%22/><text x=%2250%22 y=%2266%22 font-size=%2250%22 fill=%22%2399f6e4%22 text-anchor=%22middle%22 font-family=%22Arial%22>B</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="scroll-progress" aria-hidden="true"></div>
+
+<!-- ===================== HEADER / NAVBAR ===================== -->
+<header class="site-header">
+  <nav class="navbar" aria-label="Navigation principale">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">CIC</span>
+      Benji Bokomofulo
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#a-propos">À propos</a></li>
+      <li><a href="#role-cic">Rôle CIC</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#perspectives">Perspectives</a></li>
+      <li><a href="parcours.html">Mon parcours</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <label class="theme-switch" aria-label="Basculer le mode sombre">
+      <input type="checkbox" id="theme-toggle">
+      <span class="theme-switch-track"><span class="theme-switch-thumb"></span></span>
+    </label>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- ===================== BANDEAU SLOGAN DÉFILANT ===================== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Transformer la passion tech en compétences utiles pour ma communauté</span>
+    <span>J'apprends → Je pratique → Je collabore → Je progresse → Je réalise</span>
+    <span>La technologie n'a de sens que si elle sert l'humain</span>
+    <span>Transformer la passion tech en compétences utiles pour ma communauté</span>
+    <span>J'apprends → Je pratique → Je collabore → Je progresse → Je réalise</span>
+    <span>La technologie n'a de sens que si elle sert l'humain</span>
+  </div>
+</div>
+
+<main>
+
+  <!-- ===================== HERO — image de fond dès le début ===================== -->
+  <section class="hero" id="accueil">
+    <img src="image1.png" alt="" class="hero-bg" aria-hidden="true">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <span class="hero-badge">L'ingénieur de Kinshasa vous souhaite le(la) bienvenu(e) dans sa page web</span>
+      <h1>Benji Bokomofulo</h1>
+      <p class="subtitle">Responsable de la Programmation des Formations — CIC</p>
+      <p class="subsubtitle">Étudiant L3 · Réseaux Informatiques &amp; Télécommunications · Kinshasa, RDC</p>
+      <p class="slogan">« Transformer la passion tech en compétences utiles pour ma communauté. »</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn">Me contacter</a>
+        <a href="parcours.html" class="btn btn-outline">Voir mon parcours</a>
+      </div>
+    </div>
+    <span class="scroll-cue" aria-hidden="true"></span>
+  </section>
+
+  <!-- ===================== ÉTAT CIVIL ===================== -->
+  <div class="identity-strip">
+    <div class="identity-grid">
+      <span> Né le <strong>03 décembre 2005</strong> à Kinshasa, RDC</span>
+      <span> Fils de <strong>Junior Bokomofulo</strong> et <strong>Charlène Kamuanya</strong></span>
+      <span> Aîné d'une fratrie de <strong>8 enfants</strong></span>
+    </div>
+  </div>
+
+  <!-- ===================== CHIFFRES CLÉS ===================== -->
+  <section class="stats-strip">
+    <div class="section-inner stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="3">0</span><span class="stat-suffix">e</span>
+        <p>Année de Licence (L3)</p>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="8">0</span>
+        <p>Frères et sœurs — je suis l'aîné</p>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="79">0</span><span class="stat-suffix">%</span>
+        <p>Moyenne au Diplôme d'État 2023</p>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="5">0</span>
+        <p>Outils maîtrisés au quotidien</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== À PROPOS ===================== -->
+  <section class="section bg-soft" id="a-propos">
+    <div class="section-inner about-grid">
+      <figure class="about-photo reveal">
+        <img src="image2.png" alt="Benji Bokomofulo au travail, devant son ordinateur portable">
+        <figcaption class="about-photo-caption">Entre code, réseaux et mathématiques</figcaption>
+      </figure>
+      <div class="about-text reveal">
+        <h2 class="with-underline">Qui suis-je ?</h2>
+        <p>Je m'appelle Benji Bokomofulo, né le 3 décembre 2005 à Kinshasa, en République Démocratique du Congo, fils de Junior Bokomofulo et de Charlène Kamuanya. Aîné d'une famille de huit enfants, j'ai obtenu mon Diplôme d'État en 2023 au Collège Abbé Loya 2, section Sciences, avec 79%. Je poursuis aujourd'hui mon parcours académique en Réseaux Informatiques et Télécommunications, où je suis en Licence 3 (L3 LMD). Ma curiosité m'a naturellement conduit vers les réseaux, la cybersécurité, le cloud computing, les systèmes embarqués, l'intelligence artificielle et le développement web — des domaines que je considère comme les leviers principaux de la transformation numérique en Afrique.</p>
+        <p>Ce qui me définit, c'est avant tout mon tempérament d'autodidacte : j'aime démonter les concepts, les outils et parfois les appareils pour en comprendre le fonctionnement réel, au-delà de la théorie. J'ai aussi une véritable passion pour les mathématiques, que je considère comme le langage silencieux derrière chaque réseau, chaque algorithme et chaque système : c'est cette logique qui nourrit ma façon de résoudre les problèmes techniques, méthodiquement et sans précipitation. Grandir en tant qu'aîné d'une famille nombreuse m'a aussi appris très tôt la discipline, le sens des responsabilités et le partage. Je crois profondément que la technologie n'a de sens que si elle sert l'humain, et c'est cette conviction qui guide chacun de mes projets.</p>
+        <ul class="values-list">
+          <li>Discipline</li>
+          <li>Partage</li>
+          <li>Persévérance</li>
+          <li>Leadership</li>
+        </ul>
+        <p class="passions-label">Mes passions</p>
+        <ul class="values-list passions-list">
+          <li>Mathématiques</li>
+          <li>Réseaux</li>
+          <li>Cybersécurité</li>
+          <li>Cloud computing</li>
+          <li>Systèmes embarqués</li>
+          <li>Intelligence artificielle</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RÔLE AU CIC ===================== -->
+  <section class="section" id="role-cic">
+    <div class="section-inner">
+      <div class="role-heading reveal">
+        <h2 class="with-underline">Mon rôle au CIC</h2>
+        <p>Au sein de la Coordination &amp; Développement des Projets « RÉALISER » du CIC, j'occupe le poste de Responsable de la Programmation des Formations, rattaché au pôle Formation &amp; Développement des Compétences. Ce rôle consiste à structurer un programme de formation qui réponde réellement aux besoins des membres, avec une méthode simple, transparente et mesurable.</p>
+      </div>
+      <div class="role-card reveal">
+        <div class="role-block">
+          <h3>🎯 Vision</h3>
+          <p>Contribuer à faire du CIC un espace où les membres développent régulièrement des compétences informatiques utiles et pratiques, applicables dans leurs études comme dans leur vie professionnelle future.</p>
+          <h3 style="margin-top:24px;">🧭 Objectif</h3>
+          <p>Identifier les besoins d'apprentissage réels des membres et construire, à partir de ces besoins, un programme de formation adapté, progressif et concret.</p>
+          <h3 style="margin-top:24px;">📌 Première mission</h3>
+          <p>Identifier les principaux besoins de formation des membres à partir des questionnaires d'engagement déjà collectés, afin d'en dégager des priorités claires.</p>
+          <h3 style="margin-top:24px;">✅ Résultat attendu</h3>
+          <p>Une liste priorisée des besoins en formation, accompagnée de propositions de thèmes concrets à intégrer au planning du pôle.</p>
+        </div>
+        <div class="role-block">
+          <h3>🛠️ Méthode de travail</h3>
+          <ol class="role-steps">
+            <li>Collecter les besoins via un questionnaire structuré.</li>
+            <li>Prioriser les réponses selon trois niveaux : urgent, important, utile.</li>
+            <li>Proposer un planning de formation partagé via le Drive commun du CIC.</li>
+            <li>Assurer le suivi et la mise à jour des thèmes via GitHub.</li>
+          </ol>
+          <h3 style="margin-top:10px;">🧰 Outils utilisés</h3>
+          <div class="tools-row">
+            <span>Google Forms</span>
+            <span>Drive commun CIC</span>
+            <span>GitHub Organization CIC</span>
+            <span>VS Code</span>
+            <span>GitLens</span>
+          </div>
+        </div>
+      </div>
+      <p class="mantra reveal">J'APPRENDS → JE PRATIQUE → JE COLLABORE → JE PROGRESSE → JE RÉALISE</p>
+    </div>
+  </section>
+
+  <!-- ===================== COMPÉTENCES ===================== -->
+  <section class="section bg-soft bg-pattern" id="competences">
+    <div class="section-inner">
+      <h2 class="with-underline reveal">Compétences</h2>
+      <p class="reveal" style="max-width:70ch;margin-bottom:34px;">Mes compétences se construisent à l'intersection de la théorie académique, de la pratique autodidacte et de l'expérience de terrain acquise au CIC. Voici les quatre domaines dans lesquels j'évolue au quotidien.</p>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">🌐</div>
+          <h3>Réseaux</h3>
+          <ul>
+            <li>Modèle OSI et TCP/IP</li>
+            <li>Adressage IP et sous-réseaux (calcul binaire)</li>
+            <li>Cisco Packet Tracer</li>
+            <li>Routage et Switching</li>
+            <li>Logique mathématique appliquée aux réseaux</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🖥️</div>
+          <h3>Systèmes</h3>
+          <ul>
+            <li>Windows Server</li>
+            <li>Linux Ubuntu</li>
+            <li>Virtualisation</li>
+            <li>Maintenance système</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">💻</div>
+          <h3>Dev &amp; Outils</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Git / GitHub</li>
+            <li>VS Code</li>
+            <li>GitLens</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🤝</div>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Leadership d'aîné de famille</li>
+            <li>Gestion d'une famille nombreuse</li>
+            <li>Pédagogie et transmission</li>
+            <li>Organisation et coordination</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PERSPECTIVES ===================== -->
+  <section class="section timeline-section" id="perspectives">
+    <div class="section-inner">
+      <h2 class="with-underline reveal">Perspectives</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span class="timeline-date">2026 – 2027 · Court terme</span>
+          <h3>Consolider les bases</h3>
+          <p>Valider ma L3 en Réseaux Informatiques &amp; Télécommunications, obtenir la certification CCNA 1, et finaliser le MVP du site du CIC en tant que contribution concrète au pôle Formation.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="timeline-date">2028 · Moyen terme</span>
+          <h3>Se spécialiser et transmettre</h3>
+          <p>Entamer un Master, effectuer un stage en télécommunications, et devenir formateur certifié afin de partager mes compétences avec d'autres membres du CIC et au-delà.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="timeline-date">Long terme</span>
+          <h3>Bâtir et former durablement</h3>
+          <p>Créer une structure de services réseaux dédiée aux PME de Kinshasa, couplée à un centre de formation destiné aux jeunes voulant se professionnaliser dans le numérique.</p>
+        </div>
+      </div>
+      <p class="perspective-quote reveal">« La technologie n'a de sens que si elle sert l'humain. »</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER / CONTACT ===================== -->
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <div>
+      <h3>Me contacter</h3>
+      <p style="color:rgba(255,255,255,0.75);margin-bottom:16px;">Une question, une opportunité de collaboration ou un besoin de formation ? Écrivez-moi directement.</p>
+      <form id="contact-form" novalidate>
+        <div class="form-field">
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline">Envoyer le message</button>
+        <p id="form-feedback" style="margin-top:10px;font-size:13.5px;"></p>
+      </form>
+    </div>
+    <div>
+      <h3>Liens</h3>
+      <ul>
+        <li><a href="mailto:bokomofulob@gmail.com">bokomofulob@gmail.com</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="parcours.html">Mon parcours détaillé</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Infos</h3>
+      <ul>
+        <li>📍 Kinshasa, RDC</li>
+        <li>🟢 Disponible pour échanges &amp; collaborations</li>
+        <li>🎓 L3 Réseaux &amp; Télécoms</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span class="current-year">2026</span> Benji Bokomofulo — votre humble ingénieur de Kinshasa</span>
+    <button id="back-to-top" aria-label="Retour en haut de page" style="opacity:0;pointer-events:none;">↑</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
